@@ -1,9 +1,9 @@
 {
-    "name": "pdftofoundry",
-    "title": "PDF to Foundry Importer",
+    "name": "pdftostill",
+    "title": "PDF to Still Importer",
     "description": "",
     "version": "1.0.0",
-    "author": "mmm",
+    "author": "max37",
     "scripts": [],
     "esmodules": [
         "main.bundle.js"
@@ -15,6 +15,6 @@
     "compatibleCoreVersion": "0.8.7",
     "socket": true,
     "url": "https://gitlab.com/mmytarev1/pdftofoundry",
-    "manifest": "https://gitlab.com/mmytarev1/pdftofoundry/-/jobs/artifacts/release/raw/static_module/module.json?job=build",
-    "download": "https://gitlab.com/mmytarev1/pdftofoundry/-/jobs/artifacts/release/raw/pdftofoundry.zip?job=build"
+    "manifest": "https://github.com/max37/pdftostill/releases/download/rel/module.json",
+    "download": "https://github.com/max37/pdftostill/releases/download/rel/pdftostill.zip"
   }
