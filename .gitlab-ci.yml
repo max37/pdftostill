@@ -10,10 +10,10 @@ before_script:
 build:
     stage: build
     script:
-        - zip pdftofoundry.zip -r pdftofoundry
+        - zip pdftostill.zip -r pdftostill
         - mkdir static_module
-        - cp pdftofoundry/module.json static_module
+        - cp pdftostill/module.json static_module
     artifacts:
         paths:
-            - pdftofoundry.zip
+            - pdftostill.zip
             - static_module/module.json
